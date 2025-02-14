@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    
+        <header>
+
+            <section id="carro0">
+                <h1>BMW</h1>
+                    <img src="imagens/logo.webp" alt="">
+               
+            
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li id="especial"><a href="">Descubra</a></li>
+                    <li><a href="">Historia</a></li>
+                    <li><a href="">Criador</a></li>
+                </ul>
+            </menu>
+        </section>
+        </header>
+    <main>
+
+    <section id="carro1" class="img" >
+    
+            <h2>E28</h2>
+            <a href="#">Saiba mais
+            
+            </a>
+    
+    </section>
+    <section id="carro2"  class="img" >
+    
+            <h2>E34</h2>
+            <a href="#">Saiba mais
+            
+            </a>
+        
+    </section>
+    <section id="carro3" class="img" >
+    
+            <h2>E39</h2>
+            <a href="#">Saiba mais
+            
+            </a>
+                
+    </section>
+    <section id="carro4" class="img" >
+    
+            <h2>E60</h2>
+            <a href="#">Saiba mais
+            
+            </a>
+    </section>
+    <section id="carro5" class="img" >
+    
+            <h2>F10</h2>
+            <a href="#">Saiba mais
+            
+            </a>
+    </section>
+    <section id="carro6" class="img" >
+    
+            <h2>F90</h2>
+            <a href="#">Saiba mais
+            
+            </a>
+    </section>
+
+    </main>
+
+    <script>
+        function mudouTamano () {
+            if (window,innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
