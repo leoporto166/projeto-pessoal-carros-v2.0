@@ -14,12 +14,17 @@
         display: flex;
         justify-content: center;
     }
+    
+    section.img > a{
+        
+        transform: translate(0, 65vh);
+    }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
     section.img{
         margin-top: 20px;
-        height: 80vh;
+        height: 90vh;
         width: 60vw;
     
         border-radius: 20px;
@@ -30,15 +35,21 @@
         display: flex;
         justify-content: center;
     }
+
+    section.img > a{
+        
+        transform: translate(0, 75vh);
+    }
 }
 
 @media screen and (min-width: 1200px) {
     section.img{
         margin-top: 20px;
-        height: 80vh;
-        width: 50vw;
+        height:70vh;
+        width: 35vw;
     
         border-radius: 20px;
+        margin: 20px;
     
     }
 
@@ -56,5 +67,10 @@
     section#carro0 > img{
         transform: translate(0, 51vh);
     
+    }
+
+    section.img > a{
+        
+        transform: translate(0, 55vh);
     }
 }
