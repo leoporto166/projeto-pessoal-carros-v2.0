@@ -10,13 +10,10 @@ main{
     width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
-
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: space-around;
 
 }
 
@@ -31,37 +28,37 @@ section#carro0{
 
 }
 
-menu#itens > ul > li > a{
-    display: block;
+menu#itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+section#carro0 > menu#itens > a{
+    display: inline-block;
     text-decoration: none;
-    margin: auto;
     text-align: center;
     width: 150px;
     padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 40px;
     
     background-color: rgba(0, 0, 0, 0.363);
-    border-top: solid rgba(160, 160, 160, 0.527);
     color: rgb(255, 255, 255);
-
-    transform: translate(25vw, -22vh);
 }
 
-menu#itens > ul > li > a:hover{
+section#carro0 > #itens > a:hover{
     background-color: white;
     color: black;
     
 }
 
-span#burguer{
-    display: block;
-    color: white;
-    margin: auto;
-    transform: translate(71vw, -23vh);
+menu#itens > img{
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
 }
 
-span#burguer:hover{
-    color: rgb(138, 138, 138);
-}
 
 
 
@@ -69,7 +66,7 @@ section#carro0 > h1{
     font-size: 3.5em;
     color: rgb(255, 255, 255);
     text-align: center;
-    transform: translate(0, 56vh);
+    transform: translate(0, 50vh);
 
 }
 
@@ -78,7 +75,7 @@ section#carro0 > img{
     height: 100px;
     display: block;
     margin: auto;
-    transform: translate(0, 52vh);
+    transform: translate(0, 47vh);
 
 }
 
