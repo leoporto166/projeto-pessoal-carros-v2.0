@@ -143,7 +143,7 @@ section.img{
 }
 
 section#carro1{
-    background-image: url(../imagens/e28-6.jpg);
+    background-image: url(../imagens/e28-10.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -163,7 +163,7 @@ section#carro2{
 }
 
 section#carro3{
-    background-image: url(../imagens/e39-7.jpg);
+    background-image: url(../imagens/e39-8.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -175,7 +175,7 @@ section#carro3{
 section#carro4{
     background-image: url(../imagens/e60-7.jpg);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center center;
     background-size: cover;
     color: white;
 
@@ -193,9 +193,9 @@ section#carro5{
 }
 
 section#carro6{
-    background-image: url(../imagens/F90-13);
+    background-image: url(../imagens/F90-14.jpg);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center center;
     background-size: cover;
     color: white;
     margin-bottom: 20px;
