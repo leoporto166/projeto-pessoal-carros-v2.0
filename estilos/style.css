@@ -113,12 +113,14 @@ section.img > a{
     
     
     
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
+    border: 2px solid black;
 
    
     text-decoration: none;
-    transform: translate(0, 40vh);
+    transform: translate(0, 42vh);
+
 
 }
 
@@ -130,7 +132,10 @@ section.img > h2{
 }
 
 section.img > a:hover{
-    background-color: rgb(158, 158, 158);
+    background-color: rgba(168, 168, 168, 0.548);
+    border: 2px solid rgba(75, 72, 72, 0.575);
+    color: white;
+    transition: 0.5s;
 }
 
 section.img{
@@ -139,6 +144,7 @@ section.img{
     width: 80vw;
 
     border-radius: 20px;
+    box-shadow: inset 0px -20px 20px 0px rgba(0, 0, 0, 0.432);
 
 }
 
