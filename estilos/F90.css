@@ -19,10 +19,10 @@ body{
 }
 
 section#carro0{
-    background-image: url(../imagens/e28-header.webp);
+    background-image: url(../imagens/f90-header-6.jpg);
     height: 80vh;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 
    
@@ -99,7 +99,7 @@ main{
 
 
 section.img > div#img1{
-    background-image: url(../imagens/520i-3-removebg-preview.png);
+    background-image: url(../imagens/f90-520i-3-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -109,7 +109,7 @@ section.img > div#img1{
 
 
 section.img > div#img2{
-    background-image: url(../imagens/525e-1-removebg-preview.png);
+    background-image: url(../imagens/f90-530i-1-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -118,7 +118,7 @@ section.img > div#img2{
 }
 
 section.img > div#img3{
-    background-image: url(../imagens/e-28-3-removebg-preview.png);
+    background-image: url(../imagens/f90-540i-4-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -127,7 +127,16 @@ section.img > div#img3{
 }
 
 section.img > div#img4{
-    background-image: url(../imagens/e-28-5-removebg-preview.png);
+    background-image: url(../imagens/m5-f90-1-removebg-preview.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+section.img > div#img5{
+    background-image: url(../imagens/m5-f90-comp-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;

@@ -19,7 +19,7 @@ body{
 }
 
 section#carro0{
-    background-image: url(../imagens/e28-header.webp);
+    background-image: url(../imagens/f10-header-4.jpg);
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -79,7 +79,7 @@ section#carro0 > h1{
     font-size:4em;
     color: rgb(255, 255, 255);
     text-align: center;
-    transform: translate(0, 61vh);
+    transform: translate(0, 55vh);
     font-weight: 600;
     font-family: "DM Serif Text", serif;
 
@@ -99,7 +99,7 @@ main{
 
 
 section.img > div#img1{
-    background-image: url(../imagens/520i-3-removebg-preview.png);
+    background-image: url(../imagens/f10-520i-3-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -109,7 +109,7 @@ section.img > div#img1{
 
 
 section.img > div#img2{
-    background-image: url(../imagens/525e-1-removebg-preview.png);
+    background-image: url(../imagens/f10-535i-1-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -118,7 +118,7 @@ section.img > div#img2{
 }
 
 section.img > div#img3{
-    background-image: url(../imagens/e-28-3-removebg-preview.png);
+    background-image: url(../imagens/f10-535i-2-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -127,7 +127,17 @@ section.img > div#img3{
 }
 
 section.img > div#img4{
-    background-image: url(../imagens/e-28-5-removebg-preview.png);
+    background-image: url(../imagens/f10-550i-2-removebg-preview.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+section.img > div#img6{
+    background-image: url(../imagens/m5-f10-2-removebg-preview.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
