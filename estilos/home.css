@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+menu > a > img.zero{
+    height: 60px;
+    width: 60px;
+}
+
+menu > a > img.um{
+    height: 60px;
+    width: 70px;
+}
+
+menu > a > img.dois{
+    height: 60px;
+    width: 90px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+
+    background-color: rgb(10, 63, 107);
+
+}
+
+img#bmw{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+
+}
+
+div.img{
+    height: 200px;
+    border: 2px solid black;
+    margin: -70px 20px;
+    flex: 1, 2, 300px;
+
+}
+
+div#bmw1:hover{
+    background-image: url(../imagens-home/Familia-M5-2.png);
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    border: 2px solid rgb(255, 2, 2);
+}
+
+div#bmw2:hover{
+    background-image: url(../imagens-home/Familia-M5-2.png);
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    border: 2px solid rgb(255, 2, 2);
+}
+
+div#bmw3:hover{
+    background-image: url(../imagens-home/Familia-M5-2.png);
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    border: 2px solid rgb(255, 2, 2);
+}
+
+
+div#bmw1{
+    background-image: url(../imagens-home/Familia-M5.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 200px;
+    width: 300px;
+    
+
+}
+
+div#bmw2{
+    background-image: url(../imagens-home/Familia-M5.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 200px;
+    width: 300px;
+
+}
+
+div#bmw3{
+    background-image: url(../imagens-home/Familia-M5.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 200px;
+    width: 300px;
+
+}
+
+div#bmw1 > h1{
+
+    font-size: 2em;
+    color: white;
+    
+
+}
+
+
+
