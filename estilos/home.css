@@ -37,16 +37,24 @@ menu > a > img.dois{
     width: 90px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     width: 100%;
 
-    background-color: rgb(10, 63, 107);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -54,44 +62,59 @@ section.quadro{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 80vw;
-    height: 300px;
+    width: 75vw;
+    height: 250px;
     margin: 20px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
 }
 
-img#bmw{
-    margin-top: 50px;
+
+section.quadro:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 80vw;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.253) ;
+}
+
+img.bmw{
+    display: block;
+    margin: auto;
     width: 100px;
     height: 100px;
 
 }
 
 div.img{
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.507);
     height: 200px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
-    flex: 1, 2, 300px;
+    width: 300px;
 
 }
 
 section.quadro > h1{
     color: rgb(10, 63, 107);;
+    font-size: 2em;
 }
 
 div#bmw1:hover{
     background-image: url(../imagens-home/Familia-M5-2.png);
     width: 80vw;
-    height: 278px;
+    height: 263px;
     background-size: cover;
     transition: 1s;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+    box-shadow: 2px 2px 6px rgba(8, 8, 8, 0.336);
     align-self: center;
 }
 
 div#bmw2:hover{
     background-image: url(../imagens-home/Familia-M5-2.png);
     width: 80vw;
-    height: 278px;
+    height: 263px;
     background-size: cover;
     transition: 1s;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
@@ -101,7 +124,7 @@ div#bmw2:hover{
 div#bmw3:hover{
     background-image: url(../imagens-home/Familia-M5-2.png);
     width: 80vw;
-    height: 278px;
+    height: 263px;
     background-size: cover;
     transition: 1s;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
@@ -114,9 +137,6 @@ div#bmw1{
 
     background-size: cover;
     background-repeat: no-repeat;
-
-    height: 200px;
-    width: 300px;
     
 
 }
@@ -127,9 +147,6 @@ div#bmw2{
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 200px;
-    width: 300px;
-
 }
 
 div#bmw3{
@@ -137,9 +154,6 @@ div#bmw3{
 
     background-size: cover;
     background-repeat: no-repeat;
-
-    height: 200px;
-    width: 300px;
 
 }
 
@@ -151,5 +165,42 @@ div#bmw1 > h1{
 
 }
 
+img.ferrari{
+    display: block;
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+
+    
+
+}
+
+img.audi{
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+
+}
+
+img.mercedez{
+    margin-top: auto;
+    width: 150px;
+    height: 100px;
+
+}
+
+img.lamborghini{
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+
+}
+
+img.porsche{
+    margin-top: auto;
+    width: 150px;
+    height: 100px;
+
+}
 
 

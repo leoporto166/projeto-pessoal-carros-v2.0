@@ -2,6 +2,215 @@
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
 
+    section.quadro{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 50vw;
+        height: 250px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+    }
+    
+    
+    section.quadro:hover{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 65vw;
+        height: 300px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+        transition: 1s;
+        background-color: rgba(0, 0, 0, 0.253) ;
+    }
+
+
+    div#bmw1:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 65vw;
+        height: 263px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+    }
+    
+    div#bmw2:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 65vw;
+        height: 263px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+    }
+    
+    div#bmw3:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 65vw;
+        height: 263px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+    }
+
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    section.quadro{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 48vw;
+        height: 250px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+    }
+    
+    
+    section.quadro:hover{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 55vw;
+        height: 300px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+        transition: 1s;
+        background-color: rgba(0, 0, 0, 0.253) ;
+    }
+
+    div#bmw1:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 55vw;
+        height: 263px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+    }
+    
+    div#bmw2:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 55vw;
+        height: 263px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+    }
+    
+    div#bmw3:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 55vw;
+        height: 263px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+    }
+
+    
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    div.img{
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.507);
+        height: 300px;
+        width: 450px;
+        margin-top: 20px;
+    
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        width: 100%;
+    
+        background-color: rgb(255, 255, 255);
+    
+    }
+
+    section.quadro{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+        width: 75vw;
+        height: 250px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+    }
+
+    section.quadro{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 48vw;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+    }
+    
+    
+    section.quadro:hover{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 55vw;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.274);
+        transition: 1s;
+        background-color: rgba(0, 0, 0, 0.253) ;
+    
+    }
+
+
+    div#bmw1:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 55vw;
+        height: 463px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+        margin-top: 0px;
+    }
+    
+    div#bmw2:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 55vw;
+        height: 463px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+        margin-top: 0px;
+    }
+    
+    div#bmw3:hover{
+        background-image: url(../imagens-home/Familia-M5-2.png);
+        width: 55vw;
+        height: 463px;
+        background-size: cover;
+        transition: 1s;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+        align-self: center;
+        margin-top: 0px;
+    }
 
     
 }
