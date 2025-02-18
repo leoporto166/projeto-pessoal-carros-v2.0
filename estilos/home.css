@@ -92,7 +92,7 @@ img.bmw{
 div.img{
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.507);
     height: 200px;
-    width: 300px;
+    width: 60vw;
 
 }
 
@@ -157,11 +157,9 @@ div#bmw3{
 
 }
 
-div#bmw1 > h1{
-
+section.quadro > h1{
     font-size: 2em;
-    color: white;
-    
+    color: rgb(23, 80, 145);  
 
 }
 

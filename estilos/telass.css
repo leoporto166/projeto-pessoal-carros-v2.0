@@ -2,6 +2,13 @@
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
 
+    div.img{
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.507);
+        height: 200px;
+        width: 40vw;
+    
+    }
+
     section.quadro{
         display: flex;
         flex-direction: column;
@@ -60,6 +67,13 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    div.img{
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.507);
+        height: 200px;
+        width: 35vw;
+    
+    }
 
     section.quadro{
         display: flex;
