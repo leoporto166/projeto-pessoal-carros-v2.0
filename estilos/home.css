@@ -20,21 +20,24 @@ menu{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 menu > a > img.zero{
-    height: 60px;
-    width: 60px;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
 }
 
 menu > a > img.um{
-    height: 60px;
-    width: 70px;
+    height: 50px;
+    width: 60px;
 }
 
 menu > a > img.dois{
-    height: 60px;
-    width: 90px;
+    height: 45px;
+    width: 75px;
 }
 
 main{
@@ -147,6 +150,7 @@ div#bmw2{
 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
 }
 
@@ -155,6 +159,7 @@ div#bmw3{
 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
 }
 
